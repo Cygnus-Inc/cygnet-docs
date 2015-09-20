@@ -1,17 +1,18 @@
 language: python
-python: '3.5'
+python: '2.7'
 sudo: false
 env:
   global:
     LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
   matrix:
-    - TOXENV=check
-    - TOXENV=2.7
-    - TOXENV=2.7-nocover
-    - TOXENV=3.4
-    - TOXENV=3.4-nocover
-    - TOXENV=pypy
-    - TOXENV=pypy-nocover
+    - TOXENV=spell
+    - TOXENV=docs
+    # - TOXENV=2.7
+    # - TOXENV=2.7-nocover
+    # - TOXENV=3.4
+    # - TOXENV=3.4-nocover
+    # - TOXENV=pypy
+    # - TOXENV=pypy-nocover
 before_install:
   - python --version
   - uname -a
