@@ -1,4 +1,4 @@
+markupsafe
 sphinx
-sphinxcontrib-napoleon
 klink
 -e .
