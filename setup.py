@@ -61,7 +61,7 @@ setup(
     setup_requires=[
         'sphinx'
         'klink'
-    ]
+    ],
     install_requires=[
     ],
     extras_require={
