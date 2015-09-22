@@ -59,7 +59,7 @@ setup(
         # eg: 'keyword1', 'keyword2', 'keyword3',
     ],
     setup_requires=[
-        'sphinx'
+        'sphinx',
         'klink'
     ],
     install_requires=[
