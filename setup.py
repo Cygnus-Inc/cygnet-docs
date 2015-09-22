@@ -59,8 +59,10 @@ setup(
         # eg: 'keyword1', 'keyword2', 'keyword3',
     ],
     setup_requires=[
+        'markupsafe',
         'sphinx',
-        'klink'
+        'sphinxcontrib-spelling',
+        'klink',
     ],
     install_requires=[
     ],

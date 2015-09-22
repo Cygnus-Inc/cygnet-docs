@@ -11,12 +11,13 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinxcontrib.napoleon'
+    'sphinx.ext.napoleon'
 ]
 if os.getenv('SPELLCHECK'):
     extensions += 'sphinxcontrib.spelling',
     spelling_show_suggestions = True
     spelling_lang = 'en_US'
+    spelling_word_list_filename = 'wordlist.txt'
 
 source_suffix = '.rst'
 master_doc = 'index'
@@ -29,7 +30,7 @@ import klink
 html_theme = "klink"
 html_theme_path = [klink.get_html_theme_path()]
 html_theme_options = {
-    'githuburl': 'https://github.com/cygnus-inc/cygnet-docs/'
+    # 'githuburl': 'https://github.com/cygnus-inc/cygnet-docs/'
 }
 
 pygments_style = 'trac'
