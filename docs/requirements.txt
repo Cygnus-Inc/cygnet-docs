@@ -1,4 +1,5 @@
 markupsafe
+pyenchant
 sphinx
 klink
 -e .
