@@ -37,7 +37,7 @@ Development
 
 To set up `cygnet-docs` for local development:
 
-1. `Fork cygnet-docs on GitHub <https://github.com/cygnus-inc/cygnet-docs/fork>`_.
+1. `Fork cygnet-docs on GitHub <https://github.com/cygnus-inc/cygnet-docs>`_.
 2. Clone your fork locally::
 
     git clone git@github.com:your_name_here/cygnet-docs.git
